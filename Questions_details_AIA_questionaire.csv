@@ -1,0 +1,109 @@
+﻿Question;Topic;Activity/Feeling;Question type
+Q28: When does your organization check the suitability (e.g. correctness) of the data for the purpose of the system?;Data & model;Activity;When
+Q29: How often does your organization recollect the data when it is not suited for the purpose of the system?;Data & model;Activity;How often
+Q80: My organization always ensures that data used for the purpose of the system is highly suitable.;Data & model;Feeling;Statement 
+Q32: How often does your organization adjust data (e.g. append or delete features) when it is not representative of the purpose of the system?;Data & model;Activity;How often
+Q33: How often does your organization adjust data when it is found to contain errors?;Data & model;Activity;How often
+Q79: My organization always ensures that data used for the purpose of the system is representative and free of errors.;;Feeling;Do you
+Q35: Has your organization noticed risks associated with using a dataset in the past 2 years? - Selected Choice;Data & model;Activity;Do you
+Q35_2_TEXT: Has your organization noticed risks associated with using a dataset in the past 2 years? - Yes, please provide an example where you describe the situation in one sentence. - Text;Data & model;Activity;Do you
+Q36: How often does your organization mitigate risks in a dataset?;Data & model;Activity;How often
+Q37: At which moment in the data gathering phase are actions taken to mitigate risks concerning the dataset?;Data & model;Activity;Statement 
+Q78: My organization identifies and mitigates risks associated with a dataset.;Data & model;Activity;Do you
+Q39: Which stakeholders do you involve in the process of risk mitigation? - Selected Choice;Data & model;Feeling;Statement 
+Q39_5_TEXT: Which stakeholders do you involve in the process of risk mitigation? - Other... - Text;Data & model;Activity;Statement 
+Q77: My organization involves stakeholders in the process of risk mitigation.;Data & model;Feeling;Do you
+Q41: Does your organization train its employees on data and model bias?;Data & model;Activity;Do you
+Q42: Which departments are trained on data and model bias? - Selected Choice;Data & model;Activity;Statement 
+Q42_5_TEXT: Which departments are trained on data and model bias? - Other... - Text;Data & model;Activity;Statement 
+Q75: Professionals in my organization are aware that data can be biased.;Data & model;Feeling;do you
+Q76: Professionals in my organization are aware that bias can occur within the model.;Data & model;Feeling;Do you
+Q45: Are these professionals, working on a project, aware of its customer demographics?;Data & model;Feeling;Do you
+Q46: How often do you test model performance per demographic?;Data & model;Activity;How often
+Q47: How often are performance test results on demographics communicated with stakeholders?;Data & model;Activity;How often
+Q48: With which stakeholders are test results communicated? - Selected Choice;Data & model;Activity;Statement 
+Q50: How often does it occur that a dataset misses data?;Data & model;Activity;How often
+Q51: How often does a data gap lead to an action, in which the existing dataset is adjusted or new data is gathered to fix the data gap?;Data & model;Activity;How often
+Q73: We are expected to follow a protocol if it comes out that the dataset misses data.;Data & model;Feeling;do you
+Q53: With which stakeholders are data gaps communicated? - Selected Choice;Data & model;Feeling;Who
+Q53_5_TEXT: With which stakeholders are data gaps communicated? - Other... - Text;Data & model;Activity;Who
+Q71: Within my organization data gaps are communicated to different stakeholders.;Data & model;Feeling;Do you
+Q55: How often does your organization reflect upon the acceptable level of model accuracy?;Data & model;Activity;How often
+Q70: My organization has internally accepted levels of what a good accuracy is.;Data & model;Feeling;Statement
+Q58: Are there dedicated professional(s) for writing technical documentation in your organization?;Technical documentation;Activity;Statement 
+Q69: Technical documentation is very detailed within my organization.;Technical documentation;Feeling;Statement 
+Q68: The entire system development value chain is responsible for making technical documentation of the system.;Technical documentation;Feeling;do you
+Q61: With which stakeholders is technical documentation shared? - Selected Choice;Technical documentation;Activity;Statement 
+Q61_5_TEXT: With which stakeholders is technical documentation shared? - Other... - Text;Technical documentation;Activity;Statement 
+Q62: Technical documentation is shared with the management of my organization.;Technical documentation;Feeling;do you
+Q63: Technical documentation of my organization is written for technical people only.;Technical documentation;Feeling;do you
+Q67: In my organization multiple departments understand the technical documentation.;Technical documentation;Feeling;do you
+Q66: There are guidelines within my organization to ensure completeness of technical documentation.;Technical documentation;Feeling;do you
+Q82: How often is technical documentation written?;Technical documentation;Activity;How often
+Q83: At which stage in the development process is technical documentation written? - Selected Choice;Technical documentation;Activity;When
+Q83_5_TEXT: At which stage in the development process is technical documentation written? - Other... - Text;Technical documentation;Activity;When
+Q84: How often are compliance requirements in relation to technical documentation communicated with the development chain?;Technical documentation;Activity;How often
+Q85: With which stakeholders are compliance requirements in relation to technical documentation communicated? - Selected Choice;Technical documentation;Activity;Remaining
+Q85_5_TEXT: With which stakeholders are compliance requirements in relation to technical documentation communicated? - Other... - Text;Technical documentation;Activity;Statement 
+Q86: Is someone in your organization trained to determine the compliance requirements of the technical documentation?;Technical documentation;Feeling;Do you
+Q87: In my organization compliance requirements for technical documentation are communicated across the system development value chain.;Technical documentation;Feeling;do you
+Q88: Are there guidelines for writing the technical documentation within your organization?;Technical documentation;Activity;do you
+Q89: How often are guidelines for technical documentation revised?;Technical documentation;Activity;How often
+Q90: My organization adheres to clear policies when writing technical documentation.;Technical documentation;Feeling;do you
+Q91: With whom does your organization communicate accepted risks of the system? - Selected Choice;User Application;Activity;who
+Q91_6_TEXT: With whom does your organization communicate accepted risks of the system? - Other... - Text;User Application;Activity;who
+Q93: How often does your organization communicate accepted risks of the system with stakeholders?;User Application;Activity;How often
+Q94: My organization communicates accepted risks of the system with the user of the system.;User Application;Feeling;do you
+Q95: How does your organization estimate a models risk on rights and discrimination?;User Application;Activity;Statement 
+Q96: How often do you measure a models risk on rights and discrimination?;User Application;Activity;How often
+Q97: My organization has metrics to estimate a models risk on rights and discrimination.;User Application;Feeling;do you
+Q98: How often does your organization test that the customer of the system understands what the model is predicting?;Model monitoring;Activity;How often
+Q100: How often does your organization perform user (e.g. customers) tests?;Model monitoring;Activity;How often
+Q99: My organization tests that the user of the system understands what the model is predicting.;Model monitoring;Feeling;do you
+Q102: How many professionals in your organization are responsible for monitoring the AI/ML systems?;Model monitoring;Activity;how many
+Q103: What type of qualifications do people who monitor the systems have? - Selected Choice;Model monitoring;Activity;What type
+Q103_4_TEXT: What type of qualifications do people who monitor the systems have? - Other... - Text;Model monitoring;Activity;What type
+Q106: Are model monitoring and model development the responsibility of the same department?;Model monitoring;Feeling;do you
+Q104: My organization has a dedicated employee, who is appropriately qualified, for monitoring the systems.;Model monitoring;Activity;do you
+Q105: How often is model monitoring performed?;Model monitoring;Activity;How often
+Q108: How often are actions taken post monitoring?;Model monitoring;Activity;How often
+Q107: Post monitoring, how often do you check if model requirements are still met?;Model monitoring;Activity;How often
+Q109: What kind of actions do you take post monitoring, if the model does not meet requirements anymore? - Selected Choice;Model monitoring;Activity;What type
+Q109_4_TEXT: What kind of actions do you take post monitoring, if the model does not meet requirements anymore? - Other... - Text;Model monitoring;Activity;What type
+Q110: Models that learn after deployment are monitored to ensure that the model still meets requirements. If not applicable, choose the option 'strongly agree'.;Model monitoring;Feeling;Statement 
+Q111: My organization has clear quality standards to which a system must adhere.;Model monitoring;Feeling;Do you
+Q118: How many different employees are directly involved with managing risks related to the model/system?;Risk management;Activity;How many
+Q119: Which departments/professionals are involved in the risk management system?;Risk management;Activity;
+Q120: My organization has established a risk management system.;Risk management;Feeling;Do you
+Q121: How often is the risk management system assessed?;Risk management;Activity;How often
+Q122: My organization asseses risk management at regular intervals.;Risk management;Feeling;Do you
+Q123: How often does your organization take a corrective action after a risk has been flagged?;Risk management;Activity;How often
+Q124: How often do you test that a corrective action has mitigated the risk?;Risk management;Activity;How often
+Q125: How often are flagged risks actually mitigated?;Risk management;Activity;How often
+Q126: My organization coordinates risk mitigation across the entire value chain of system development.;Risk management;Feeling;Do you
+Q127: How often are risks of the system communicated across stakeholders?;Risk management;Activity;How often
+Q128: With which stakeholders are risks of the system communicated? - Selected Choice;Risk management;Activity;How many
+Q128_6_TEXT: With which stakeholders are risks of the system communicated? - Others - Text;Risk management;Activity;How many
+Q129: My organization communicates risks of the system across all key stakeholders.;Risk management;Feeling;Statement 
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
+;;;
